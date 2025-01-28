@@ -104,7 +104,123 @@ body {
   color: white;
   text-transform: capitalize;
 }
-.hero-img img {
-  /* width: 80%; */
-}
 /* hero section end area */
+
+/* curriculum section start here */
+.curriculum-sec {
+  width: 100%;
+  margin: 100px 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+.curriculum-sec .bgImg {
+  position: absolute;
+  top: -50px;
+}
+
+.curriculum-sec h1 {
+  font-size: 32px;
+  text-transform: capitalize;
+}
+
+.curriculum-sec .cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 80px;
+}
+.curriculum-sec .cards .card {
+  border-radius: 12px;
+  padding: 30px 0px;
+}
+
+.clr-c1 {
+  box-shadow: 0px 10px 50px 27px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(
+    to bottom,
+    #78cdfb,
+    #95d1fa,
+    #acd6f8,
+    #c0dbf6,
+    #d2e1f3,
+    #d8e5f2,
+    #e0e9f1,
+    #e8edf0,
+    #ebeff1,
+    #eef2f3,
+    #f1f4f4,
+    #f4f6f6
+  );
+}
+.clr-c2 {
+  box-shadow: 0px 10px 50px 27px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(
+    to bottom,
+    #f9ce61,
+    #f1ce75,
+    #e9cd89,
+    #e0cd9c,
+    #d8ccae,
+    #decebb,
+    #dfd2c9,
+    #dcd7d5,
+    #e5e1e1,
+    #edebec,
+    #f6f5f6,
+    #ffffff
+  );
+}
+.clr-c3 {
+  box-shadow: 0px 10px 50px 27px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(
+    to bottom,
+    #cb9bf6,
+    #d1affa,
+    #d9c2fd,
+    #e2d5ff,
+    #ede7ff,
+    #f3efff,
+    #f9f7ff,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #ffffff
+  );
+}
+.curriculum-sec .cards .card h3 {
+  margin: 6px 0px;
+}
+.curriculum-sec .cards .card p {
+  margin: 20px 0px;
+  font-size: 14px;
+  color: gray;
+  line-height: 25px;
+}
+.curriculum-sec .cards .card button {
+  border: none;
+  background-color: transparent;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.clr-b1 {
+  color: skyblue;
+}
+.clr-b2 {
+  color: orange;
+}
+.clr-b3 {
+  color: #8700ff;
+}
+
+.card-arrow img {
+  width: 30px;
+  background-color: orange;
+  border-radius: 50%;
+  padding: 8px;
+  margin: 2px;
+}
+/* curriculum section end here */
