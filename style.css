@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 .quicksand-font {
-  font-family: "Quicksand", serif;
+  font-family: 'Quicksand', serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -20,7 +20,7 @@
 body {
   max-width: 1200px;
   margin: 0 auto;
-  font-family: "Quicksand", serif;
+  font-family: 'Quicksand', serif;
 }
 /* header nav style */
 .navber {
@@ -227,6 +227,7 @@ body {
 
 /* story section start here */
 .stories-sec {
+  position: relative;
   width: 100%;
   margin: 100px 0px;
   display: flex;
@@ -238,9 +239,9 @@ body {
   text-transform: capitalize;
   font-size: 32px;
 }
-.stories-sec img {
+/* .stories-sec img {
   width: 60px;
-}
+} */
 .outer-cards {
   display: flex;
   justify-content: space-between;
@@ -335,4 +336,19 @@ body {
   display: flex;
 }
 
+.stories-sec .bgImg {
+  position: absolute;
+  top: -70px;
+}
+
+.stories-sec button {
+  margin: 20px 0px;
+  background-color: black;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-weight: 500;
+  color: white;
+  text-transform: capitalize;
+}
 /* story section end here */
