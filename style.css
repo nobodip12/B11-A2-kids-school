@@ -52,6 +52,10 @@ main {
   font-weight: 600;
 }
 
+header hr {
+  display: none;
+}
+
 .nav-items li:nth-child(1) {
   color: orange;
 }
@@ -65,6 +69,11 @@ main {
   color: #5d58ef;
 }
 
+.menubar {
+  width: 25px;
+  display: none;
+}
+
 .nav-last-item {
   background-color: orange;
   padding: 6px 22px;
@@ -76,7 +85,6 @@ main {
 /* hero section start area */
 .hero-sec {
   width: 100%;
-  height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -441,5 +449,26 @@ footer .bgImg img {
 /* footer section end here */
 
 /* ------------------------responsive area start here--------------------------- */
-
+@media screen and (max-width: 576px) {
+  body {
+    padding: 0px 1rem;
+  }
+  nav .nav-logo p,
+  nav .nav-items,
+  nav .nav-last-item {
+    display: none;
+  }
+  nav {
+    border-bottom: 2px solid rgb(243, 202, 127);
+  }
+  .menubar {
+    display: inline-block;
+  }
+  .hero-sec {
+    flex-direction: column-reverse;
+  }
+  .hero-content {
+    width: 90%;
+  }
+}
 /* ------------------------responsive area end here--------------------------- */
