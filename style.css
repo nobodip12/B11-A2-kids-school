@@ -470,5 +470,9 @@ footer .bgImg img {
   .hero-content {
     width: 90%;
   }
+
+  .curriculum-sec .cards {
+    flex-direction: column;
+  }
 }
 /* ------------------------responsive area end here--------------------------- */
