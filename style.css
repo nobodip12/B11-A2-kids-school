@@ -12,7 +12,7 @@
   box-sizing: 0;
 }
 
-/* sheard style */
+/* shared style */
 .dFlex {
   display: flex;
 }
@@ -29,7 +29,6 @@ main {
 /* header nav style */
 .navber {
   justify-content: space-between;
-  /* margin: 20px 120px; */
   align-items: center;
   margin: 12px 0px;
 }
@@ -251,9 +250,6 @@ header hr {
   text-transform: capitalize;
   font-size: 32px;
 }
-/* .stories-sec img {
-  width: 60px;
-} */
 .outer-cards {
   display: flex;
   justify-content: space-between;
