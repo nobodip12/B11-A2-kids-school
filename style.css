@@ -314,6 +314,7 @@ header hr {
   display: flex;
   gap: 20px;
 }
+
 .inner-right-card img {
   width: 100%;
 }
@@ -362,6 +363,10 @@ header hr {
   font-weight: 500;
   color: white;
   text-transform: capitalize;
+}
+
+.inner-right-card .stories-cardTwo {
+  background-color: #5d58f0;
 }
 /* story section end here */
 
@@ -469,10 +474,48 @@ footer .bgImg img {
   }
   .hero-content {
     width: 90%;
+    text-align: center;
   }
-
   .curriculum-sec .cards {
     flex-direction: column;
+  }
+
+  .outer-cards .inner-left-card {
+    display: none;
+  }
+  .inner-right-card {
+    width: 100%;
+  }
+  .inner-right-card .date {
+    position: absolute;
+    top: 50%;
+    width: 30%;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer .logo-area {
+    width: 85%;
+    margin: 0 auto;
+  }
+  footer .nav-area {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  footer .icon-area {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .stories-sec .bgImg {
+    display: none;
+  }
+  .curriculum-sec .bgImg {
+    display: none;
+  }
+  footer .bgImg {
+    display: none;
   }
 }
 /* ------------------------responsive area end here--------------------------- */
